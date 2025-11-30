@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Kit script -->
+  <script src="https://kit.fontawesome.com/f97e72cfea.js" crossorigin="anonymous"></script>
+
+  <!-- css styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Sketch Plane Portfolio</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>
+        <h1>
+          <a href="index.html"><i class="fa-solid fa-code"></i>Sketch Plane</a>
+        </h1>
+      </li>
+      <li>
+        <a href="#projects">项目</a>
+      </li>
+      <li>
+        <a href="#about">关于我</a>
+      </li>
+      <li>
+        <a href="#contact">联系我</a>
+      </li>
+      <li>
+        <a href="https://github.com/sketchp1ane" target="_blank">
+          <i class="fa-brands fa-square-github"></i>
+        </a>
+      </li>
+      <li>
+
+        <a href="public/resume.pdf" download target="_blank" class="button">简历下载</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <section id="intro">
+    <p class="name">你好，我是 <span>Sketch Plane.</span></p>
+    <h2>一名计算机专业学生 / 前端开发者。</h2>
+    <p>目前专注于 HTML、CSS、JavaScript、React、Vite 和 Tailwind CSS 等前端技术。</p>
+    <p>就读于 <a href="https://www.cjlu.edu.cn/" target="_blank" >中国计量大学</a>。</p>
+  </section>
+  <div class="gradient"></div>
+  <div class="section-blue">
+    <section id="projects">
+      <h2>我的代表项目</h2>
+  
+      
+      <!-- Project 1 -->
+      <article>
+        <div class="text">
+          <h4>全栈项目</h4>
+          <h3>披萨点单系统（Pizza Ordering System）</h3>
+
+          <p class="blackbox">
+            这是一个从 0 到 1 自主实现的披萨点单全栈系统，包括菜单展示、购物车、
+            下单流程与历史订单等完整业务模块。我负责前端界面、数据状态管理、后端 API
+            设计与数据库开发，实现了从 UI 到数据流的完整链路衔接。
+
+            前端基于 <strong>React 18、Vite、TanStack Router、React Query</strong> 构建，
+            通过组件抽象、懒加载与错误边界提升了界面稳定性与交互体验。后端使用
+            <strong>Fastify + SQLite</strong> 完成核心 API 开发，实现下单接口、订单查询、
+            商品列表管理等功能。
+            
+            项目还包含 <strong>Context、Portal、组件拆分</strong> 等 UI 工程化优化，
+            并通过 <strong>Vitest、React Testing Library、vitest-fetch-mock</strong> 等工具
+            完成数据请求、组件行为及 API 调用场景测试，确保系统稳定可控。
+          </p>
+
+          <h4>使用到的技术：</h4>
+          <ul>
+            <li>React</li>
+            <li>vite</li>
+            <li>Fastify</li>
+            <li>SQLite</li>
+            <li>Vitest</li>
+          </ul>
+        </div>
+
+        <img
+          src="public/pizza.png"
+          alt="Pizza ordering system screenshot placeholder."
+        />
+      </article>
+
+  
+      <!-- Project 2 (Placeholder) -->
+      <article class="reverse">
+        <div class="text">
+          <h4>即将上线</h4>
+          <h3>项目占位符</h3>
+
+          <p class="blackbox">
+            该项目目前尚未开始开发。这里将用于展示我未来的前端或全栈作品，
+            包含交互设计、组件实现或业务功能等内容。项目完成后会更新详细介绍、
+            技术栈与预览链接。
+          </p>
+
+          <h4>使用到的技术：</h4>
+          <ul>
+            <li>待定</li>
+          </ul>
+        </div>
+
+        <!-- 占位图片（灰色、通用科技风，适合作品集中位置） -->
+        <img
+          src="https://images.unsplash.com/photo-1522199710521-72d69614c702?q=80&w=1200&h=675&fit=crop" 
+          alt="Project placeholder image."
+        />
+      </article>
+
+  
+      
+      <!-- Project 3 (Placeholder) -->
+      <article>
+        <div class="text">
+        <h4>即将上线</h4>
+        <h3>项目占位符</h3>
+        <p class="blackbox">
+          这个项目目前尚未开始开发。未来这里将展示一个新的前端或全栈作品。
+          我会在项目完成后更新详细描述、技术栈和链接。
+        </p>
+        <h4>使用到的技术：</h4>
+        <ul>
+          <li>待定</li>
+        </ul>
+  </div>
+
+  <!-- 占位图（极简、干净、适合作品集） -->
+  <img 
+    src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&h=675&fit=crop" 
+    alt="Project placeholder image." 
+  />
+</article>
+
+  
+    </section>
+  </div>
+  <div class="gradient"></div>
+  <div class="section-plum">
+    <section id="contact">
+      <h2>联系我</h2>
+      <p>
+        我正在寻找前端开发或全栈方向的实习 / 全职机会。
+        也欢迎交流技术、合作开发项目，或一起做开源贡献。
+        如果你觉得我能帮助你的团队或项目，欢迎随时与我联系。
+      </p>
+      <p><a href="mailto:evanchen.codes@gmail.com" class="button">给我发邮件</a></p>
+    </section>
+  </div>
+
+  <div class="gradient"></div>
+  <footer>
+    <h2>Sketch Plane &middot; Front-end developer</h2>
+    <ul>
+      <li><i class="fa-solid fa-blog"></i></li>
+      <li>
+        <a href="https://github.com/sketchp1ane" target="_blank">
+          <i class="fa-brands fa-square-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:evanchen.codes@gmail.com">
+          <i class="fa-solid fa-square-envelope"></i>
+        </a>
+      </li>
+    </ul>
+    <p><small>&copy; 2025 Sketch Plane. All rights reserved.</small></p>
+  </footer>
+</body>
+</html>
